@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Lobster&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #dbcff4;
+    font-family: 'Cabin', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around; 
+    align-content: space-between;   
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+#logo-img img{
+    width:10vw ;
+    height: 15vh;
+    padding-right: 760px;
+    
+}
+nav ul li{
+    margin: 0 20px;
+}
+#bio img{
+    width: 40vw;
+    height: 50vh;
+    border: 5px solid black;
+    border-radius: 10%;
+
+}
+nav ul a{
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 20px;
+
+}
+#shoes img {
+    width: 20vw;
+    height: 20vh;
+}
+#trophy img {
+    width: 20vw;
+    height: 20vh;
+}
+#played img {
+    width: 20vw;
+    height: 20vh;
+}
+nav ul li a:hover{
+    color: hotpink;
+}
+#header {
+    width: 100%;
+    height: 150px; ;
+    background: black ;
+    color:hotpink ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#header div p{
+   padding-left: 40%;
+  
+}
+#bio{
+    display: flex;
+    margin: 20px;
+    justify-items: center;
+    font-size: 25px;
+        
+}
+
+#bioblock{
+    padding-left: 30px;
+    
+}
+#port{
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+    background: slateblue;
+    color: aliceblue;
+}
+#trophy img{
+    padding-left: 180px;
+    
+}
+#shoes h4{
+    padding-left: 110px;
+    color: aquamarine;
+} 
+#trophy h4{
+    padding-left: 310px;
+    color: aquamarine;
+}
+#played h4{
+    padding-left: 100px ;
+    color: aquamarine;
+}
+#contact{
+    /* display: flex;
+    flex-direction: column;
+    position: absolute; */
+    
+
+}
+#skill-container div {
+    background: hotpink;
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    
+    
+}
+
+#tech li{
+    list-style: none;
+}
+
+#phy li{
+    list-style: none;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 40%;
+    padding: 20px;
+    
+}
+#foot {
+    padding: 30px ;
+} 
+#foot h2{
+    margin-right: 3px;
+}
+#soc ul{
+    cursor: pointer;
+
+}
+#social{
+    background: whitesmoke;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-items: space-around; 
+}
+#soc ul a:hover{
+    background: aqua;
+}
+#skill-container h2{
+    background: hotpink;
+}
+#foot {
+    background: silver;
+}
